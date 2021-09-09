@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	background-color: black;
+	color: white;
+/*	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;*/
+	font-family: Helvetica;
+}
+
+.top-bar {
+/*	margin-top: 2.5vh;*/
+/*	z-index: 1000;*/
+}
+
+.flex-container {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 65vw;
+	color: white;
+	font-size: 1.5vw;
+	z-index: 2000;
+}
+
+.flex-container a{
+	color: inherit;
+	text-decoration: none;
+/*	z-index: 500;*/
+}
+
+#name {
+	width: 97.5%;
+	text-align: right;
+	position: absolute;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.75vw;
+	z-index: 2000;
+	text-decoration: none;
+}
+
+
+h1{
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+
+}
+#title {
+	padding: 5vmax;
+	padding-bottom: 2.5vmax;
+	padding-top: 7.5vmax;
+}
+
+
+
+.folders {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+/*	padding-top: 1.2vh;*/
+}
+
+.folders .child{
+	padding: 5vw;
+	padding-bottom: 2.5vh;
+	padding-top: 0;
+}
+
+.folders h1{
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+/*	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";*/
+	font-size: 1.25em;
+	width: 15vw;
+	text-align: left;
+	cursor: pointer;
+}
+
+input[type=radio],
+input[type=radio] + div {
+    display: none;
+}
+
+input:checked + div {
+    display: flex;
+}
+
+.class-contents {
+	width: 60vw;
+	position: absolute;
+	margin-top: -7.5%;
+	margin-left: 30vw;
+	display: flex;
+	flex-dirction: row;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.report{
+	width: 15vw;
+	text-align: center;
+	color: white;
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	text-decoration: none;
+	font-size: .75vw;
+	padding-top: 2vw;
+	padding-bottom: .5vw;
+	
+	border-radius: 10px;
+	margin-bottom: 5vw;
+}
+
+a{
+	color: white;
+}
+
+img{
+	width: 12vw;
+}
+
+.course-title {
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 1.75vw;
+	padding-bottom: 2.5vw;
+	padding-top: 2.5vw;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.class-name {
+	text-decoration: underline;
+}
+
+.description {
+	font-size: 1.2vw;
+	padding-bottom: 5%;
+}
