@@ -1,73 +1,281 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Home</title>
-<link href="styles/index.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>Beatrice Hoang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="Styles/index.css" rel="stylesheet" type="text/css">
+    <link href="Styles/intro.css" rel="stylesheet" type="text/css">
+    <link href="Styles/about.css" rel="stylesheet" type="text/css">
+    <link href="Styles/Projects.css" rel="stylesheet" type="text/css">
+    <link href="Styles/movies.css" rel="stylesheet" type="text/css">
+    <link href="Styles/contact.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
-	
-	<div class="top-bar">
-		<div id="name">
-			<div>Beatrice Hoang</div>
-		</div>
 
-		<div class="flex-container">
-			<div><a href="editing.html">editing</a></div>
-			<div><a href="analog.html">analog</a></div>
-			<div><a href="digital.html">digital</a></div>
-			<div><a href="scribbles.html">scribbles</a></div>
-			<div><a href="videos.html">videos</a></div>
-			<div><a href="programs.html">programs</a></div>
-			<div><a href="movie-stuff.html">movie stuff</a></div>
-		</div>
-	</div>
-	
-	<div id="hover-textbox">
-		<div>
-			<a href="editing.html" id="disintegrating" style="color: aqua;">disintegrating</a> // 
-			
-			<img alt="inverted colors self portrait collage" id="disintegrating-img" src="images/baby_inverted_collage.jpg">
-			
-			<a id="into-the-past" href="analog.html" style="color: magenta;">into the past</a> //
-			
-			<img alt="beach film photograph" id="into-the-past-img" src="images/beach_film.jpg">
-			
-			<br>
-			<a id="discovering" href="digital.html" style="color: yellow;">discovering</a> //
-			
-			<img alt="painted friend photograph" id="discovering-img" src="images/tiago1.jpg">
-			
-			<a id="whats-going-on" href="scribbles.html" style="color: #14F52E;">what's going on</a> //
-			
-			<img alt="charcoal drawing of Rue and Jules from Euphoria" id="whats-going-on-img" src="images/rue_jules.jpg">
-			
-			<a id="exploring" href="videos.html" style="color: darkorange;">exploring</a> // 
-			
-			<img alt="still of a diary from my short film titled Hey Diary" id="exploring-img" src="images/hey-diary.jpg">
-			
-			<br>
-			<a id="interesting-files" href="programs.html" style="color: red;">interesting files</a> //
-			
-			<img alt="benjamin cumberbatch abraham lincoln hybrid image" id="interesting-files-img" src="images/ben_abe_hybrid.jpg">
-			
-			<a id="and-some" href="movie-stuff.html" style="color: #CBF1FF;">and some of my favourites</a> //
-			
-			<img alt="the movies i watched in march" id="and-some-img" src="images/movies/3-2021-march.png">
-			
-		</div>
-	</div>
-	
-	<div id="about-info">
-		<div class="about-item">Hi! My name is Beatrice. I am a Junior at Brown University concentrating in Computer Science and Modern Culture &amp; Media. I love longboarding, taking pictures, solving Rubik's Cubes, swimming, movies, painting, printmaking, and any other art form I can get my hands on.
-		<br><br>
-		<a id="resume-button" href="pdfs/beatrice-hoang-media-resume-2022.pdf" target="_blank">Resume</a>
-		</div>
-<!--		<br><br>-->
-		
-		<img class="about-item" alt="headshot" src="images/me.jpg">
-	</div>
-	
+    <div id="intro">
+        <video id="background-video" autoplay loop muted>
+            <source src="hey-diary-darker2.mp4" type="video/mp4">
+        </video>
+
+        <div id="i-am">I am</div>
+        <div id="name">Beatrice Hoang,</div>
+
+        <div class="intro-about">a <span class="hover-keyword">Computer Science</span> and
+            <span class="hover-keyword">Modern Culture & Media</span> student at
+            <span class="hover-keyword">Brown University</span>
+            interested in the bridge between <span class="hover-keyword">technology and filmic arts.</span>
+        </div>
+
+        <div class="intro-about">I am passionate about
+            <span class="hover-keyword">cross-disciplinary applications</span> of
+            <span class="hover-keyword">visual computing</span> and
+            <span class="hover-keyword">engaging old and new media theories</span>
+            to interrogate modes of representation in film.
+        </div>
+
+        <a href="#about"><img id="down-arrow" src="Images/down-arrow.png"></a>
+    </div>
+
+
+    <div id="about">
+        <div class="flex-parent">
+            <div class="flex-child">
+                <div id="about-title">About Me</div>
+                <div class="about-body">
+                    Hi! I'm Beatrice. I grew up in Austin, TX and now live in Providence, RI
+                    where I am a junior at Brown University. I currently work as a part-time piano teacher,
+                    and I am looking for internship and co-op opportunities in the Software Engineering and Digital Media
+                    fields.
+                    </br></br>
+                    I am interested in combining programming and the arts in computer vision, building
+                    Virtual Reality applications, frontend development, and creating other forms of new media - I have a
+                    few examples of my projects below!
+                    </br></br>
+                    In my free time I enjoy solving Rubik's cubes, skateboarding, swimming, watching movies, and finding
+                    seashells along the beach.
+
+                </div>
+            </div>
+
+            <div class="flex-child">
+                <img src="Images/pacific-grove.JPG">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="projects">
+        <div id="projects-title">Projects</div>
+        <div id="projects-subheader">Click on each project to learn more</div>
+        <div class="flex-parent">
+            <div class="flex-child">
+                <div onclick="showDescription('vr-piano-desc')" class="show-button">
+                    <img src="Images/piano-vr-crop.jpeg" alt="piano vr application">
+                    <div class="project-name">VR Piano Visualizer</div>
+                </div>
+
+                <div class="project-description" id="vr-piano-desc">
+                    Inspired by my piano students who watch reactive piano visualizers on YouTube to help
+                    them practice at home, I created an application that visualizes midi data in virtual reality.
+                    </br></br>
+                    While 2D visualizers are able to represent note pitch and duration on a piano,
+                    they are unable to represent the volume of each note in an intuitive way.
+                    In the VR Piano Visualizer, volume is represented by note height.
+                    </br></br>
+                    This application was created using Unity and Fusion 360. Features include:</br>
+                    Wayfinding</br>
+                    Volume represented by height of the key</br>
+                    Choose from 5 songs</br>
+                    Play/Pause playback</br>
+                    Slow down and Reset speed
+                </div>
+            </div>
+
+            <div class="flex-child">
+                <div onclick="showDescription('octoquiz-desc')" class="show-button">
+                    <img src="Images/octoquiz-questions-page.jpg" alt="octoquiz questions page">
+                    <div class="project-name">OctoQuiz</div>
+                </div>
+
+                <div class="project-description" id="octoquiz-desc">
+                    A geometric obstacle web game with teacher access to statistics and game creation that
+                    presents students with question-based obstacles. Responsibilities included building questions page,
+                    database communication, and testing using React, Firebase, and Selenium.
+                    </br></br>
+                    Play <a id="game-link" href="https://bhthng098.github.io/octoquiz/" target="_blank">here</a>
+                    with sample game code 233521, or create your own game in the Create Game tab.
+                </div>
+            </div>
+
+            <div class="flex-child">
+                <div onclick="showDescription('descent-desc')" class="show-button">
+                    <img src="Images/descent-below.jpg" alt="descent screenshot">
+                    <div class="project-name">Descent: A Sea Exploration Game</div>
+                </div>
+
+                <div class="project-description" id="descent-desc">
+                    As a capsule recently descended into a caldera, explore your new surroundings and
+                    meet the creatures that lie below!
+                    </br></br>
+                    What does it mean to find mutual understanding with the completely alien?
+                    How do you renegotiate space peacefully with the environment you find yourself in,
+                    and can you make yourself part of that world without compromising your own identity?
+                    What do you become when you fully commit to the understanding of another world?
+                    Our game seizes around the idea of not only exploring a space but internalizing space,
+                    the way that the spaces we exist in increase our capacity for empathy and understanding
+                    if we are willing to listen to them.
+                    </br></br>
+
+                    Small desktop game created with Unity.
+                    Responsibilities included scripting interactions and movement in C#,
+                    and consolidating teammates’ models, animations, and sounds into Unity.
+                </div>
+            </div>
+
+            <div class="flex-child">
+                <div onclick="showDescription('latex-desc')" class="show-button">
+                    <img src="Images/handwritten.png" alt="handwritten equation">
+                    <div class="project-name">Image to LaTex</div>
+                </div>
+
+                <div class="project-description" id="latex-desc">
+                    A character-by-character convolutional neural network model to convert
+                    handwritten Math equations/symbols into LaTeX markup language. Our model
+                    </br></br>
+                    Our model takes in an image that contains one or more handwritten
+                    equations on separate lines, with the constraint that each
+                    equation can be read purely from left to right– this does not
+                    include characters that contain a symbol above or below,
+                    such as fractions or summation notation.
+                    </br></br>
+                    Responsibilities included translating CNN output into LaTeX markup.
+                    </br></br>
+
+                    View our <a href="cs1430_final_writeup.pdf" target="_blank">report here</a>
+                </div>
+            </div>
+
+            <div class="flex-child">
+                <div onclick="showDescription('heydiary-desc')" class="show-button">
+                    <img src="Images/heydiary-still.jpg" alt="hey diary short film still">
+                    <div class="project-name">Hey Diary, I think I'm in love: Short Film</div>
+                </div>
+
+                <div class="project-description" id="heydiary-desc">
+                    My short film called “Hey Diary, I think I’m in love”
+                    is about a journal entry and a love for all kinds of things.
+                    A girl goes to the park to write in her journal about things she loves —
+                    simple things like balloons and trees, but also the things she used to
+                    love like jumping on the couch and poking her baby sister’s cheeks.
+                    </br></br>
+                    When you meet someone, one of the first things you share are the things you love -
+                    your interests, passions, favorite foods and favorite memories. This short film is
+                    dedicated to those moments.
+                    </br></br>
+                    Directed, written, and shot by me.
+                    </br></br>
+                    <a href="https://youtu.be/ok_rZE9fogg" target="_blank">Watch here</a>
+                </div>
+            </div>
+
+            <div class="flex-child">
+                <div onclick="showDescription('growingup-desc')" class="show-button">
+                    <img src="Images/growingup-still.jpg" alt="growing up short film still">
+                    <div class="project-name">Growing Up: Found Footage Short Film</div>
+                </div>
+
+                <div class="project-description" id="growingup-desc">
+                    "Growing Up" is a found footage film about my childhood experience.
+                    </br></br>
+                    Using 23 various films, I edited video and audio to capture loose events of my childhood
+                    and explore my growth.
+                    </br></br>
+                    <a href="https://vimeo.com/717016230" target="_blank">Watch here</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="movies">
+        <div id="movies-title">My Favorite Movies</div>
+        <div id="movies-subheader">
+            I'm a big movie watcher! I love watching all kinds of films, from the Golden Age of Hollywood to the New York
+            Underground scene to obscure 20-minute shorts of the life of a cat.
+            Here are some of my favorite movies of all time:
+        </div>
+
+        <div class="flex-parent">
+            <div class="flex-child">
+                <img src="Images/loveandpop-poster.jpg" alt="love and pop poster">
+            </div>
+
+            <div class="flex-child">
+                <img src="Images/jetuilelle-poster.jpg" alt="je tu il elle poster">
+            </div>
+
+            <div class="flex-child">
+                <img src="Images/goldeneighties-poster.jpg" alt="golden eighties poster">
+            </div>
+
+            <div class="flex-child">
+                <img src="Images/watermelonwoman-poster.jpg" alt="love and pop poster">
+            </div>
+
+            <div class="flex-child">
+                <img src="Images/houseofhummingbird-poster.jpg" alt="house of hummingbird poster">
+            </div>
+
+            <div class="flex-child">
+                <img src="Images/moonlight.jpg" alt="moonlight poster">
+            </div>
+
+            <div class="flex-child">
+                <img src="Images/portrait-poster.jpg" alt="portrait of a lady on fire poster">
+            </div>
+
+            <div class="flex-child">
+                <img src="Images/howl-poster.jpg" alt="howl's moving castle poster">
+            </div>
+
+            <div class="flex-child">
+                <img src="Images/carol-poster.jpg" alt="carol poster">
+            </div>
+
+            <div class="flex-child">
+                <img src="Images/paris-poster.jpg" alt="paris is burning poster">
+            </div>
+
+            <div class="flex-child">
+                <img src="Images/debs-poster.jpg" alt="debs poster">
+            </div>
+
+            <div class="flex-child">
+                <img src="Images/fits-poster.jpg" alt="the fits poster">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contact">
+        <div id="contact-title">Contact Me</div>
+        <div id="contact-subheader">
+            If you would like to reach out, email me! I'm happy to chat about work opportunities, collaborations, movies,
+            or whatever you would like to share.
+            </br></br>
+            Email: beatrice_hoang@brown.edu
+        </div>
+    </div>
+
 </body>
+
+<script src="Scripts/index.js"></script>
+
 </html>

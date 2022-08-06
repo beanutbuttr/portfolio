@@ -1,0 +1,31 @@
+#about {
+    color: black;
+    width: 60vmax;
+    margin: auto;
+    padding-top: 5vh;
+}
+
+#about .flex-parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#about #about-title {
+    font-size: 24pt;
+    margin-bottom: 5vmin;
+}
+
+#about .about-body {
+    font-size: 14pt;
+    font-family: 'Inter', sans-serif;
+    width: 400px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+img{
+    width: 400px;
+}
+

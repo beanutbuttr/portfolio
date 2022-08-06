@@ -1,0 +1,18 @@
+#contact {
+    width: 80vw;
+    margin: auto;
+    height: 50vh;
+}
+
+#contact #contact-title {
+    color: black;
+    width: 60vmax;
+    padding-top: 15vh;
+    font-size: 24pt;
+    margin: auto auto 2.5vmin;
+}
+
+#contact #contact-subheader {
+    width: 60vmax;
+    margin: auto auto 5vmin;
+}

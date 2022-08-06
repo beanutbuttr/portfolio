@@ -1,0 +1,73 @@
+#projects {
+    width: 80vw;
+    margin: auto;
+}
+
+#projects #projects-title {
+    color: black;
+    width: 60vmax;
+    padding-top: 15vh;
+    font-size: 24pt;
+    margin: auto auto 2.5vmin;
+}
+
+#projects #projects-subheader {
+    width: 60vmax;
+    margin: auto auto 5vmin;
+    border-bottom: 2px black solid;
+}
+
+#projects .flex-parent {
+    /*border: 2px black solid;*/
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 60vmax;
+}
+
+#projects .flex-child {
+    /*background-color: navy;*/
+    /*border-radius: 10px;*/
+    /*border: 1px solid #eaeaea;*/
+    color: black;
+    width: 400px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    align-items: flex-start;
+    line-height: 1.5;
+    font-size: 14pt;
+    margin-bottom: 40px;
+
+}
+
+#projects .flex-child .project-name {
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+}
+
+.show-button {
+    cursor: pointer;
+}
+
+.project-description {
+    font-size: 14px;
+    display: none;
+    border-bottom: 1px solid lightgrey;
+}
+
+#projects .flex-child img {
+    /*border-radius: 2px;*/
+    box-shadow: 0px 0px 3px lightgray;
+    width: 400px;
+    height: 225px;
+    object-fit: cover;
+}
+
+#game-link {
+    background-color: darkorange;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
