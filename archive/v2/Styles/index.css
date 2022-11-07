@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Cambon;
+    src: url("../Fonts/Cambon-ExtraLight.woff2");
+}
+*{
+    scroll-behavior: smooth;
+}
+body {
+    /*font-family: Cambon;*/
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: white;
+    height: 200vh;
+}

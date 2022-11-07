@@ -1,0 +1,13 @@
+@media screen and (max-width:667px) {
+    #intro {
+        margin: 0 20px;
+    }
+    #projects {
+        margin: 50px 20px;
+    }
+    .a-project {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+}
