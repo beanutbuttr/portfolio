@@ -46,12 +46,19 @@ body {
 #image-and-about-button {
 }
 
-#image-and-about-button img {
+#me-drawing {
     width: 473px;
     max-width: 100%;
     /*border: 2px black solid;*/
     /*margin-right: -130px;*/
+    transition: 0.3s;
 }
+
+#me-drawing:hover {
+    transform: translateX(-42px);
+
+}
+
 
 #about-button {
     font-family: 'Space Mono', monospace;
