@@ -43,8 +43,6 @@ body {
     margin-top: 10px;
 }
 
-#image-and-about-button {
-}
 
 #me-drawing {
     width: 473px;
@@ -59,15 +57,18 @@ body {
 
 }
 
-
 #about-button {
+    color: black;
+    display: block;
+    text-decoration: none;
     font-family: 'Space Mono', monospace;
     font-weight: bold;
+    font-size: 32px;
     border: 4px solid black;
     border-radius: 10px;
     width: 330px;
-    font-size: 32px;
     text-align: center;
+    transition: 0.3s;
 }
 
 #projects {
@@ -87,6 +88,8 @@ body {
 
     line-height: 1.75;
     max-width: 100%;
+
+    transition: 0.3s;
 }
 
 #projects-header {
@@ -180,4 +183,5 @@ body {
     width: 700px;
     max-width: 100%;
     text-align: center;
+    transition: 0.3s;
 }
