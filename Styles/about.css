@@ -1,16 +1,36 @@
 body {
-    margin: 130px;
+    margin: 50px 130px;
     font-family: 'Work Sans', sans-serif;
 }
 
 #about-header {
-    font-family: 'Space Mono', monospace;
+    /*font-family: 'Space Mono', monospace;*/
     font-weight: bold;
     font-size: 32px;
-    margin-bottom: 30px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+
+.about-content {
+    font-size: 24px;
+    text-align: justify;
 }
 
 #i-love{
     font-size: 36px;
     font-weight: bold;
+}
+
+img {
+    display: block;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+    transition: 0.3s;
+}
+
+img:hover {
+    opacity: 50%;
 }
