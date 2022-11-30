@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ScreenMusings: A Redesign</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="Styles/project.css" rel="stylesheet" type="text/css">
+    <link href="Styles/vr-piano.css" rel="stylesheet" type="text/css">
+    <link href="Styles/back-button.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <a href="index.html" class="back-button">baaack home</a>
+
+    <div class="intro-content">
+        <div class="course-origin">Fall 2022</div>
+        <header>ScreenMusings: A Redesign</header>
+        <div class="flex-parent" style="border-bottom: none;">
+            <div class="section-subheader">
+                Original Site
+                <a class="image-link" href="https://screenmusings.org/movie/" target="_blank">
+                    <img src="Images/screenmusings/screenmusings-og-movie-page.png" alt="screenmusings original website">
+                </a>
+            </div>
+            <div class="section-subheader">
+                Redesign
+                <a class="image-link" href="https://epydkszvh1jeoiox.github.io/screenmusings-redesign/" target="_blank">
+                    <img src="Images/screenmusings/desktop-final.png" alt="screenmusings redesign website">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="non-flex-section">
+        <div class="section-header">tl;dr</div>
+        <div style="text-align: left;">
+            As a film student, one of my favorite websites is
+            <a href="https://screenmusings.org/movie/">www.screenmusings.com</a>
+            <br><br>
+            I use it to look for screen caps of my favorite movies.
+            Screenmusings is usually my go-to, but navigating the site can be tricky sometimes. So, I decided
+            to give the site a makeover.
+        </div>
+    </div>
+
+    <div class="flex-parent">
+        <div>
+            <div class="section-subheader">FINDING PROBLEMS</div>
+            <div class="section-header">What exactly didn't I like about the original website?</div><br>
+            <ul>
+                <li>small font-size headings in low contrast colors</li>
+                <li>multiple navigation bars - some lead to the same pages, some lead to different pages</li>
+                <li>Some  movies appear twice (like 2001: A Space Odyssey), and each has a different set of images.
+                    It seems this is because one link is for DVD captures and the other contains Blu-Ray captures.
+                    It would be nice to have a way to distinguish this!</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Nav bar “filters” on the left do not always reload with clear headings - for example,
+                    the “Trailers” filter still leaves the heading as Index of Movies, whereas clicking on other
+                    filters does update the header (ie. Index of Blu-ray Movies, Index of Cinematographers, etc).</li>
+                <li>also interesting - on mobile, the left vertical navbar collapses and merges with the top navbar</li>
+                <li>all movies are organized in alphabetical order but the column-wrap order can make
+                    ordering ambiguous - I always have to double-check whether it is alphabetical
+                    in the column direction or row direction.</li>
+                <li>On mobile, you can click “more” to reveal a dropdown menu, but there is no way to collapse it.</li>
+                <li>some of the entries are music videos, which do not contain director/cinematographer information.
+                    I didn’t expect a movie site to include music videos.</li>
+                <li>Inconsistency in director names, ex. Park Chan-wook vs Chan-wook Park</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="non-flex-section">
+        <div class="section-header" style="font-weight: 400;">
+            A lot of things to consider - so, I started with some <b>lo-fi prototypes</b> to get a simple design down.
+        </div>
+        <div class="flex-parent" style="border-bottom: none;">
+            <div>
+                <div class="section-subheader">Desktop</div>
+                <img src="Images/screenmusings/lofi-desktop.png">
+            </div>
+            <div>
+                <div class="section-subheader">Tablet</div>
+                <img style="width: 50%" src="Images/screenmusings/lofi-tablet.png">
+            </div>
+            <div>
+                <div class="section-subheader">Mobile</div>
+                <img style="width: 50%" src="Images/screenmusings/lofi-phone.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="non-flex-section">
+        <div class="section-header" style="font-weight: 400;">
+            and some <b>hi-fi prototypes</b> in Figma.
+        </div>
+        <div class="flex-parent" style="border-bottom: none;">
+            <div>
+                <div class="section-subheader">Style Guide</div>
+                <img src="Images/screenmusings/Style-Guide.png">
+            </div>
+            <div>
+                <div class="section-subheader">Desktop</div>
+                <img src="Images/screenmusings/hifi-desktop.png">
+            </div>
+            <div>
+                <div class="section-subheader">Tablet</div>
+                <img style="width: 50%" src="Images/screenmusings/hifi-tablet.png">
+            </div>
+            <div>
+                <div class="section-subheader">Mobile</div>
+                <img style="width: 50%" src="Images/screenmusings/hifi-phone.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="non-flex-section" style="border-bottom: none;">
+        <div style="text-align: center;" class="section-subheader">
+            And finally in HTML/CSS.
+            <br><br>
+        </div>
+        <a class="button-hover" href="https://epydkszvh1jeoiox.github.io/screenmusings-redesign/" target="_blank">Redesign Link</a>
+        <br>
+        <a class="button-hover" href="https://github.com/epydkszvh1jeoiox/screenmusings-redesign" target="_blank">Github</a>
+        <br><br>
+        <img src="Images/screenmusings/desktop-final.png">
+    </div>
+
+</body>
+</html>
