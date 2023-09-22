@@ -150,6 +150,10 @@ a {
     background-color: #64c586;
 }
 
+#thunderstruck:hover {
+  background-color: #ff396b;
+}
+
 #hey-diary:hover {
     background-color: #ffc2ed;
 }
